@@ -1,9 +1,14 @@
-Character Sheet Prompt Template
-For Nano Banana Pro — generates the @Image1 reference for Seedance 2.5
+[character-sheet-prompt.md](https://github.com/user-attachments/files/32432751/character-sheet-prompt.md)
+# Character Sheet Prompt Template
+### For Nano Banana Pro — generates the @Image1 reference for Seedance 2.5
+
 ---
-STEP 1 — Portrait First (4:5 ratio)
+
+## STEP 1 — Portrait First (4:5 ratio)
+
 Generate this before the full sheet. Get the face exactly right here.
 Use this as the reference image when generating the three-panel sheet.
+
 ```
 Photorealistic character reference photograph. Chest-up portrait of a [AGE, GENDER]
 against a plain mid-grey seamless studio backdrop, facing camera straight on.
@@ -33,9 +38,12 @@ fine film grain. Original character, not resembling any existing person or publi
 NEGATIVE: no smooth or airbrushed skin, no beauty filter, no CGI look,
 no gradient background, no heavy makeup, no resemblance to any real person.
 ```
+
 ---
-STEP 2 — Three-Panel Character Sheet (16:9 ratio)
-Attach the approved portrait as a reference image before generating
+
+## STEP 2 — Three-Panel Character Sheet (16:9 ratio)
+### Attach the approved portrait as a reference image before generating
+
 ```
 Photorealistic character reference sheet. Three panels side by side against a plain
 mid-grey seamless studio backdrop. One continuous background across all three panels.
@@ -78,9 +86,12 @@ between panels, no smooth or airbrushed or waxy or CGI-looking skin, no beauty
 filter, no heavy makeup, no arched back or posed stance, no props, no text,
 no watermark, no branding.
 ```
+
 ---
-STEP 3 — Skin Realism Pass (if skin looks too perfect)
-Run this as a follow-up edit on the approved sheet
+
+## STEP 3 — Skin Realism Pass (if skin looks too perfect)
+### Run this as a follow-up edit on the approved sheet
+
 ```
 Take this exact image and increase skin and overall realism only.
 Keep the same identity, pose, outfit, panel layout, background,
@@ -95,9 +106,13 @@ real photographic texture, not a smoothed surface.
 NEGATIVE: no smooth, plastic, waxy, glass-smooth, or CGI-rendered skin.
 No beauty filter. No change to face shape, identity, pose, wardrobe, or background.
 ```
+
 ---
-If Using Real Photos (4 photos uploaded)
+
+## If Using Real Photos (4 photos uploaded)
+
 Replace the description-based prompt above with this identity lock:
+
 ```
 CRITICAL IDENTITY LOCK: @Image1, @Image2, @Image3, and @Image4 are all photos
 of the exact same real person. This is not a composite or blended face.
@@ -121,7 +136,9 @@ NEGATIVE: no identity drift from the uploaded references under any circumstances
 no generic or composite or averaged face, no beautification, no smooth or
 airbrushed or CGI-looking skin.
 ```
+
 ---
+
 > **Why the headless centre panel?**
 > It leaves exactly one face in the sheet. If two full faces appear at different
 > scales, Seedance averages them into a blurred, unstable identity. One face,
