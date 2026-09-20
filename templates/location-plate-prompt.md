@@ -1,12 +1,18 @@
-Location Plate Prompt Template
-For Nano Banana Pro — generates the @Image3 environment reference for Seedance 2.5
+[location-plate-prompt.md](https://github.com/user-attachments/files/32432800/location-plate-prompt.md)
+# Location Plate Prompt Template
+### For Nano Banana Pro — generates the @Image3 environment reference for Seedance 2.5
+
 ---
+
 > **Why lock the location before the video?**
 > If Seedance has to invent a location AND handle a performance at the same time,
 > it fails both. Lock the environment as a reference plate first.
 > Every block prompt then says "match @Image3" instead of re-describing the space.
+
 ---
-Location Plate Prompt (16:9 or 9:16)
+
+## Location Plate Prompt (16:9 or 9:16)
+
 ```
 [Photorealistic cinematic establishing plate / Photorealistic interior photograph],
 [wide shot / medium / three-quarter angle]. No people. Empty of people entirely.
@@ -65,9 +71,12 @@ NEGATIVE: no people, no text, no logos, no CGI or 3D render look,
 no flat or shadowless lighting, no plants (unless specified),
 no clutter (unless specified), [add anything specific you don't want].
 ```
+
 ---
-Examples by Location Type
-Small Apartment Kitchen (pre-dawn, phone-shot feel)
+
+## Examples by Location Type
+
+### Small Apartment Kitchen (pre-dawn, phone-shot feel)
 ```
 This must read as an actual photograph taken on a phone in a real apartment.
 NOT a digital render, NOT a 3D visualisation, NOT an interiors magazine shoot.
@@ -90,7 +99,8 @@ NEGATIVE: no CGI, no 3D render, no styled or minimalist interior, no plants,
 no people, no film grain, no halation, no cinematic colour grade,
 no even or flattering lighting, no text or branding.
 ```
-Industrial Gym — Wide Establishing (cinematic)
+
+### Industrial Gym — Wide Establishing (cinematic)
 ```
 Location reference plate, 9:16, completely empty of people.
 A large modern strength gym on an industrial upper floor. Deep charcoal rubber
@@ -109,7 +119,8 @@ one pocket of warm daylight at the far end. Rich blacks, controlled highlights.
 NEGATIVE: no CGI, no 3D render, no showroom look, no people, no flat lighting,
 no fluorescent tint, no neon, no real brand logos, no text.
 ```
-Dense Forest — Exterior Night / Dusk (cinematic horror / drama)
+
+### Dense Forest — Exterior Night / Dusk (cinematic horror / drama)
 ```
 Photorealistic cinematic establishing plate, wide shot, no people.
 A dense temperate forest at late dusk in torrential rain. Tall dark pine and
@@ -131,6 +142,8 @@ water droplets on the lens, natural overcast light only.
 
 NEGATIVE: no people, no artificial light sources, no CGI, no text.
 ```
+
 ---
+
 > **Upload order for Seedance (never change this):**
 > @Image1 = Character 1 · @Image2 = Character 2 · @Image3 = Location plate · @Image4 = Last frame of previous block
