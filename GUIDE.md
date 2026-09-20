@@ -1,3 +1,4 @@
+[GUIDE.md](https://github.com/user-attachments/files/32432827/GUIDE.md)
 # GUIDE TO BEST AI FILMMAKING
 ### Realistic AI Video — Cinematic Films & AI Personas
 **Tools: Claude / ChatGPT → Nano Banana Pro → Seedance 2.5 → CapCut / After Effects**
